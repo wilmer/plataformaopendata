@@ -1,0 +1,54 @@
+    1  mysql_secure_installation
+    2  mysql -u root -p
+    3  cd /var/www
+    4  ls
+    5  wget https://ftp.drupal.org/files/projects/drupal-8.3.7.tar.gz
+    6  tar xvzf drupal-8.3.7.tar.gz
+    7  mv * /var/www/html
+    8  ls
+    9  mv ./* /var/www/html
+   10  cd /
+   11  cd var/www/
+   12  ls
+   13  mv ./* /var/www/html
+   14  cd html/
+   15  ls
+   16  cd drupal-8.3.7
+   17  ls
+   18  mv ./* /var/www/html
+   19  ls
+   20  chown -R www-data:www-data /var/www/html
+   21  l
+   22  ls
+   23  cd ..
+   24  ls
+   25  mysql -u root -p
+   26  cat /etc/apache2/mods-enabled/dir.conf
+   27  sudo vi /etc/apache2/mods-enabled/dir.conf
+   28  sudo cat /etc/php5/apache2/php.ini
+   29  sudo cat /etc/php/7.0/apache2/php.ini 
+   30  sudo vi /etc/php/7.0/apache2/php.ini 
+   31  sudo vim /etc/php/7.0/apache2/php.ini 
+   32  sudo vi /etc/php/7.0/apache2/php.ini 
+   33  sudo nano /etc/apache2/sites-enabled/000-default.conf
+   34  mysql -u root -p -h localhost
+   35  git init
+   36  ls
+   37  cp -r archivo.zip /home/wilmer/
+   38  ls
+   39  cd /home/wilmer/
+   40  ls
+   41  git clone https://github.com/wilmer/plataformaopendata.git
+   42  ls
+   43  git add archivo.zip 
+   44  git init 
+   45  git add archivo.zip 
+   46  ls
+   47  git commit -m "sss"
+   48  git commit  "sss"
+   49  git commit -m "sss"
+   50  git commit -m "first commit"
+   51  git commit -m "first commiddt"
+   52  exit
+   53  ls
+   54  history > history_20032019.txt
