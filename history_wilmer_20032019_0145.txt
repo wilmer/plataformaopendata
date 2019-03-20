@@ -1,0 +1,74 @@
+    1  ls
+    2  ping www.google.com.pe
+    3  apt-get updat
+    4  apt-get update
+    5  sudo apt-get update
+    6  ping www.google.com.p
+    7  sudo apt-get upgrate
+    8  sudo apt-get upgrade
+    9  sudo apt-get install -y apache2
+   10  sudo service apache2 restart
+   11  sudo service apache2 stop
+   12  sudo service apache2 start
+   13  sudo apt-get install -y mysql-server
+   14  sudo apt-get install -y php5-mysql php5 libapache2-mod-php5 php5-mcrypt php5-gd php5-curl libssh2-php
+   15  php-ssh2:i386 php-ssh2
+   16  sudo apt-get installphp-ssh2:i386 php-ssh2
+   17  sudo apt-get install php-ssh2:i386 php-ssh2
+   18  sudo apt-get install drush
+   19  git remote add pantheon https://github.com/pantheon-systems/drops-7.git
+   20  sudo apt-get install git
+   21  git remote add pantheon https://github.com/pantheon-systems/drops-7.git
+   22  sudo apt-get install git
+   23  git remote add pantheon https://github.com/pantheon-systems/drops-7.git
+   24  git clone https://github.com/pantheon-systems/drops-7.git
+   25  git clone https://github.com/GetDKAN/dkan.git
+   26  cd dkan
+   27  bash dkan-init.sh dkan
+   28  sudo apt-get install ahoy
+   29  ahoy dkan remake &&  ahoy dkan reinstall && ahoy dkan remake &&  ahoy dkan reinstall && ahoy dkan remake &&  ahoy dkan reinstall && ahoy dkan remake &&  ahoy dkan reinstall
+   30  ahoy docker up
+   31  cd ..
+   32  ls
+   33  sudo wget -q https://github.com/ahoy-cli/ahoy/releases/download/2.0.0/ahoy-bin-`uname -s`-amd64 -O /usr/local/bin/ahoy && sudo chown $USER /usr/local/bin/ahoy && chmod +x /usr/local/bin/ahoy
+   34  cd dkan/
+   35  ls
+   36  ahoy docker up
+   37  ls
+   38  cd dkan/
+   39  ls
+   40  bash dkan-init.sh dkan
+   41  export AHOY_CMD_PROXY=DOCKER
+   42  ahoy docker up
+   43  ls
+   44  cd dkan/
+   45  ls
+   46  ahoy docker up
+   47  apt-get install python-software-properties
+   48  sudo apt-get install python-software-properties
+   49  apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8
+   50  apt-get install mariadb-server
+   51  sudo apt-get install mariadb-server
+   52  systemctl start mariadb
+   53  systemctl enable mariadb
+   54  add-apt-repository ppa:ondrej/php
+   55  apt-get update
+   56  sudo apt-get update
+   57  apt-get install php7.0 php7.0-curl php7.0-gd php7.0-mbstring php7.0-xml php7.0-json php7.0-mysql php7.0-opcache libapache2-mod-php7.0
+   58  sudo apt-get install php7.0 php7.0-curl php7.0-gd php7.0-mbstring php7.0-xml php7.0-json php7.0-mysql php7.0-opcache libapache2-mod-php7.0
+   59  mysql_secure_installation
+   60  mysql -u root -p
+   61  GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY '021190wi';
+   62  apt-get remove mysql-server
+   63  sudo apt-get remove mysql-server
+   64  sudo mysql -u root
+   65  sudo service mysql restart
+   66  mysql_secure_installation
+   67  sudo mysql -u root
+   68  suso su
+   69  sudo su
+   70  ls
+   71  git init
+   72  sudo su
+   73  history 
+   74  history > history_wilmer_20032019_0145.txt
