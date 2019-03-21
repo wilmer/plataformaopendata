@@ -19,4 +19,10 @@ RUN pt-get install php7.0 php7.0-curl php7.0-gd php7.0-mbstring php7.0-xml php7.
 RUN mysql_secure_installation
 RUN mysql -u root -p
 RUN GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY 'smartcity';
-RUN mysql -u root
+RUN wget https://ftp.drupal.org/files/projects/drupal-8.3.7.tar.gz
+RUN tar xvzf drupal-8.3.7.tar.gz
+RUN wget https://github.com/BlackrockDigital/startbootstrap-freelancer/archive/gh-pages.zip
+RUN cp -a /startboostrap-freelancer-gh-pages/* var/www/html
+EXPOSE 82
+CMD /usr/sbin/apache2ctl -D FORE
+
